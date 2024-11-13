@@ -559,6 +559,7 @@ endif()
 include_directories( ${LIB_INC_DIR} )
 include_directories( ${USER_INC} )
 include_directories( ${INTERNAL_INC} )
+include_directories( /usr/include/eigen3/ )
 
 add_library(${LIBRARY_NAME} STATIC ${SOURCES} ${HEADERS})    # modified for python binding (add "STATIC")
 target_link_libraries(${LIBRARY_NAME} ${LINK_LIBS} Eigen::Eigen)
