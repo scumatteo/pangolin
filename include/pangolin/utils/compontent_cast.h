@@ -3,7 +3,7 @@
 #include <pangolin/platform.h>
 
 #ifdef HAVE_EIGEN
-#  include <Eigen/Core>
+#  include <eigen3/Eigen/Core>
 #endif
 
 namespace pangolin

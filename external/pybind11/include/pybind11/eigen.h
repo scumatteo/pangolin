@@ -22,8 +22,8 @@
 #  endif
 #endif
 
-#include <Eigen/Core>
-#include <Eigen/SparseCore>
+#include <eigen3/Eigen/Core>
+#include <eigen3/Eigen/SparseCore>
 
 #if defined(_MSC_VER)
 #  pragma warning(push)
